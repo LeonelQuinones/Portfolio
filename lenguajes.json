@@ -1,0 +1,62 @@
+[
+    {
+        "id" : 1,
+        "nombre" : "Html",
+        "icono" : "fa-brands fa-html5",
+        "color" : "#FF7400"
+    },
+    {
+        "id" : 2,
+        "nombre" : "Css",
+        "icono" : "fa-brands fa-css3-alt",
+        "color" : "#2E84E6"
+    },
+    {
+        "id" : 3,
+        "nombre" : "Sass",
+        "icono" : "fa-brands fa-sass",
+        "color" : "#BF569A"
+    },
+    {
+        "id" : 4,
+        "nombre" : "Javascript",
+        "icono" : "fa-brands fa-square-js",
+        "color" : "#FFF538"
+    },
+    {
+        "id" : 5,
+        "nombre" : "Node js",
+        "icono" : "fa-brands fa-node-js",
+        "color" : "#79FF22"
+    },
+    {
+        "id" : 6,
+        "nombre" : "React js",
+        "icono" : "fa-brands fa-react",
+        "color" : "#6AE8FF"
+    },
+    {
+        "id" : 7,
+        "nombre" : "Bootstrap",
+        "icono" : "fa-brands fa-bootstrap",
+        "color" : "#7640C2"
+    },
+    {
+        "id" : 8,
+        "nombre" : "Git",
+        "icono" : "fa-brands fa-git-alt",
+        "color" : "#FF3B3B"
+    },
+    {
+        "id" : 9,
+        "nombre" : "Responsive desing",
+        "icono" : "fa-solid fa-laptop",
+        "color" : "#1B0540"
+    },
+    {
+        "id" : 10,
+        "nombre" : "Firebase",
+        "icono" : "fa-solid fa-database",
+        "color" : "#FF6700"
+    }
+]

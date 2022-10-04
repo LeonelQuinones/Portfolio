@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- Css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FontAwesome Iconos -->
+    <script src="https://kit.fontawesome.com/83bacbb0c5.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg encabezado fixed-top">
+            <div class="container contenedor-nav">
+              <a class="navbar-brand" href="#">Portfolio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav lista">
+                  <li class="nav-item cont-enlases-nav">
+                    <a class="enlaces-nav active" aria-current="page" href="#inicio">Inicio</a>
+                  </li>
+                  <li class="nav-item cont-enlases-nav">
+                    <a class="enlaces-nav" href="#sobre-mi">Sobre mi</a>
+                  </li>
+                  <li class="nav-item cont-enlases-nav">
+                    <a class="enlaces-nav" href="#proyectos">Proyectos</a>
+                  </li>
+                  <li class="nav-item cont-enlases-nav">
+                    <a class="enlaces-nav" href="#contacto">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <section id="inicio">
+      <div class="container contenedor">
+        <div class="row sec-inicio">
+          <div class="col-12 col-sm-6">
+            <img class="img-perfil" src="https://img.freepik.com/vector-premium/avatar-personaje-masculino-joven-retrato-aislado-adolescente-sueter-foto-personaje-redes-sociales-o-cv-estudiante-secundaria-o-universidad-vector-chico-amigable-plano_87689-2390.jpg?w=2000" alt="avatar">
+          </div>
+          <div class="col-12 col-sm-6">
+            <h1 class="titulo-principal">Hola, soy Leonel Quiñones <br><span>Desarrollador front-end</span></h1>
+            <div class="row gap-2 div-botones">
+              <div class="col-sm-1 col-2 botones-inicio">
+                <a href="https://www.linkedin.com/in/leonel-qui%C3%B1ones/">
+                  <i class="fa-brands fa-linkedin fa-lg"></i>
+                </a>
+              </div>
+              <div class="col-sm-1 col-2 botones-inicio">
+                <a href="https://github.com/LeonelQuinones">
+                  <i class="fa-brands fa-github fa-lg"></i>
+                </a>
+              </div>
+              <div class="col-sm-4 col-5 botones-inicio">
+                <a href="#" download="CV Leonel Quiñones">
+                  Descargar CV
+                </a>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <section id="sobre-mi">
+      <div class="container contenedor">
+        <h2 class="subtitulos">Sobre mi</h2>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias quasi, nostrum veritatis laborum quis laudantium ipsum animi sit accusamus cumque commodi esse perferendis quia quas alias ducimus quibusdam dolores doloribus veniam illo! Necessitatibus magnam accusantium totam exercitationem illum sed magni asperiores ea voluptate architecto, laborum, aut ipsam minima quas cumque sunt molestiae? Corrupti magnam est cumque sapiente totam odio non qui atque, distinctio consequatur, error aspernatur eum, a doloribus? Perferendis deserunt facere illum nam tenetur consequatur nulla fugit error dolorum facilis. Ea repudiandae quas porro sit, error dolores quaerat veniam asperiores eum nulla at, in culpa? Repellendus voluptates exercitationem similique.
+      </div>
+    </section>
+
+    <section id="habilidades">
+      <div class="container contenedor">
+        <div class="sec-habilidades">
+          <h2 class="subtitulos">Herramientas</h2>
+          <div id="herramientas" class="row gap-3 justify-content-center"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <div id="proyectos"></div>
+    </section>
+
+    <section id="contacto">
+      <div class="container contenedor">
+        <h2 class="subtitulos">Contacto</h2>
+        <div class="row sec-contacto">
+          <div class="col-sm-7">
+            <img class="img-form" src="src/assets/img/undraw_envelope_re_f5j4.svg" width="100%" alt="Email">
+          </div>
+          <div class="col-sm-5 formulario">
+            <form action="https://formsubmit.co/a1037268dc68984eff18fc5e5dea1e34" method="POST">
+              <div class="row">
+                <div class="col-12">
+                  <label for="formNombre" class="form-label label-form">Nombre :</label>
+                  <input class="form-control" type="text" name="nombre" id="formNombre" placeholder="Escribe tu nombre...">
+                </div>
+                <div class="col-12">
+                  <label for="formEmail" class="form-label label-form">Email :</label>
+                  <input class="form-control" type="email" name="email" id="formEmail" placeholder="Escribe tu email...">
+                </div>
+                <div class="col-12">
+                  <label for="formAsunto" class="form-label label-form">Asunto :</label>
+                  <input class="form-control" type="text" name="asunto" id="formAsunto" placeholder="Escribe el asunto...">
+                </div>
+                <div class="col-12">
+                  <label for="formMensaje" class="form-label label-form">Mensaje :</label>
+                  <textarea class="form-control" name="mensaje" id="formMensaje" cols="20" rows="6" placeholder="Escribe tu mensaje..."></textarea>
+                </div>
+                <button class="boton-form" type="submit">Enviar</button>
+              </div>
+
+              <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html"/>
+              <input type="hidden" name="_captcha" value="false"/>
+              <input type="hidden" name="_template" value="box"/>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div>
+        <div>
+          <a href=""></a>
+        </div>
+        <div>
+          <a href=""></a>
+        </div>
+        <div>
+          <a href=""></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
