@@ -214,3 +214,35 @@
 .boton-form:hover {
     background-color: #18186dc9;
 }
+
+/* Footer */
+
+footer {
+    background-color: #585be2;
+    padding: 20px 0;
+}
+
+.div-footer {
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .div-footer {
+        gap: 15px;
+    }
+}
+
+.div-footer div {
+    text-align: center;
+}
+
+.div-footer div h3 {
+    font-size: 20px;
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+.iconos-footer {
+    font-size: 25px;
+    color: #fff;
+}
