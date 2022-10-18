@@ -21,13 +21,13 @@
         "id" : 4,
         "nombre" : "Javascript",
         "icono" : "fa-brands fa-square-js",
-        "color" : "#FFF538"
+        "color" : "#E8DF33"
     },
     {
         "id" : 5,
         "nombre" : "Node js",
         "icono" : "fa-brands fa-node-js",
-        "color" : "#79FF22"
+        "color" : "#84FF14"
     },
     {
         "id" : 6,
@@ -51,7 +51,7 @@
         "id" : 9,
         "nombre" : "Responsive desing",
         "icono" : "fa-solid fa-laptop",
-        "color" : "#1B0540"
+        "color" : "#110329"
     },
     {
         "id" : 10,
