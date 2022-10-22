@@ -85,6 +85,12 @@ body {
 
 .img-perfil {
     width: 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 12px solid #47644e;
 }
 
 .titulo-principal {
