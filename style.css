@@ -81,6 +81,10 @@ body {
     .sec-inicio {
         padding: 20px 0;
     }
+
+    .div-titulo {
+        padding-top: 20px;
+    }
 }
 
 .img-perfil {
@@ -90,7 +94,7 @@ body {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    border: 12px solid #47644e;
+    border: 9px solid #47644e;
 }
 
 .titulo-principal {
@@ -201,6 +205,10 @@ body {
 }
 
 /* Proyectos */
+
+.card-proyectos {
+    padding: 0;
+}
 
 /* Contacto */
 
