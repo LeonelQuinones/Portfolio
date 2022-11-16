@@ -1,17 +1,26 @@
 [
     {
-        "img" : "https://wallpapersmug.com/download/1600x900/acd20d/reactjs-atom-minimal.jpg",
-        "nombre" : "Roberto Cabrera SRL",
-        "descripcion" : "dsadsa dsadsadsa dsadsad dsadsadsa dsadsadsa dsadsadsa dsadsadsa dsadsadsadsa dsadsadsa dsadsadsa dsadsadas"
-    },
-    {
-        "img" : "https://wallpapersmug.com/download/1600x900/acd20d/reactjs-atom-minimal.jpg",
-        "nombre" : "Smart Tech",
-        "descripcion" : "dsadsa dsadsadsa dsadsad dsadsadsa dsadsadsa dsadsadsa dsadsadsa dsadsadsadsa dsadsadsa dsadsadsa dsadsadas"
-    },
-    {
-        "img" : "https://wallpapersmug.com/download/1600x900/acd20d/reactjs-atom-minimal.jpg",
+        "img" : "./src/assets/img/img-t-curso.png",
         "nombre" : "Solo Deportes",
-        "descripcion" : "dsadsa dsadsadsa dsadsad dsadsadsa dsadsadsa dsadsadsa dsadsadsa dsadsadsadsa dsadsadsa dsadsadsa dsadsadas"
+        "descripcion" : "dsadsa dsadsadsa dsadsad dsadsadsa dsadsadsa dsadsadsa dsadsadsa dsadsadsadsa dsadsadsa dsadsadsa dsadsadas",
+        "urlpag" : "",
+        "urlgh" : "https://github.com/LeonelQuinones/CursoReact",
+        "herramientas" : "Html - Css - Javascript - React js - Firebase"
+    },
+    {
+        "img" : "./src/assets/img/img-p-curso.png",
+        "nombre" : "Roberto Cabrera SRL",
+        "descripcion" : "dsadsa dsadsadsa dsadsad dsadsadsa dsadsadsa dsadsadsa dsadsadsa dsadsadsadsa dsadsadsa dsadsadsa dsadsadas",
+        "urlpag" : "",
+        "urlgh" : "https://github.com/LeonelQuinones/Proyecto-Coder",
+        "herramientas" : "Html - Css - Sass - Bootstrap - Node js"
+    },
+    {
+        "img" : "./src/assets/img/img-s-curso.png",
+        "nombre" : "Smart Tech",
+        "descripcion" : "dsadsa dsadsadsa dsadsad dsadsadsa dsadsadsa dsadsadsa dsadsadsa dsadsadsadsa dsadsadsa dsadsadsa dsadsadas",
+        "urlpag" : "",
+        "urlgh" : "https://github.com/LeonelQuinones/Proyecto-Javascript",
+        "herramientas" : "Html - Css - Javascript"
     }
 ]

@@ -210,6 +210,56 @@ body {
     padding: 0;
 }
 
+.div-img-card{
+    overflow: hidden;
+}
+
+.img-card:hover {
+    scale: 1.1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.titulo-card {
+    padding: 15px 0;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.subtitulo-card {
+    padding-bottom: 8px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.herramientas-card {
+    padding-bottom: 5px;
+}
+
+.a-proyectos {
+    text-decoration: none;
+}
+
+.iconos-proyectos {
+    font-size: 23px;
+    padding-right: 10px;
+    color: #47644e;
+}
+
+.iconos-proyectos:hover {
+    color: #252625;
+}
+
+@media (max-width: 768px) {
+    .proyectos {
+        display: grid;
+        gap: 30px!important;
+    }
+}
+
 /* Contacto */
 
 .sec-contacto {
